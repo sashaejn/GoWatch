@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GoWatch</string>
+    <string name="welcome">Selamat Datang di GoWatch</string>
+    <string name="search_hint">Cari Film</string>
+    <string name="trending">Trending Sekarang</string>
+    <string name="my_watchlist">Tonton Nanti</string>
+    <string name="my_ratings">Rating Saya</string>
+    <string name="add_to_watchlist">Tambah ke Tonton Nanti</string>
+    <string name="rate_movie">Rating Film</string>
+    <string name="submit">Kirim</string>
+    <string name="cancel">Batal</string>
+    <string name="no_results">Tidak Ditemukan</string>
+    <string name="error_loading">Error</string>
+    <string name="app_slogan">Rekomendasi Tepat, Hiburan Mantap.</string>
+</resources>

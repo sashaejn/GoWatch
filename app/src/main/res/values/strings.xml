@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GoWatch</string>
+    <string name="welcome">Welcome to GoWatch</string>
+    <string name="search_hint">Search movies...</string>
+    <string name="trending">Trending Now</string>
+    <string name="my_watchlist">My Watchlist</string>
+    <string name="my_ratings">My Ratings</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="rate_movie">Rate Movie</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_results">No results found</string>
+    <string name="error_loading">Error loading data</string>
+    <string name="app_slogan">Perfect Picks, Pure Entertainment.</string>
+</resources>
