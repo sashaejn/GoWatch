@@ -213,7 +213,7 @@ fun DashboardScreen(
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "Tidak ada film tersedia",
+                        text = stringResource(id = R.string._deskripsitrending),
                         color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
                         textAlign = TextAlign.Center
                     )
@@ -256,7 +256,7 @@ fun DashboardScreen(
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "Tambahkan film ke watchlist untuk melihatnya di sini!",
+                        text = stringResource(id = R.string._deskripsiwatchlist),
                         color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
                         textAlign = TextAlign.Center
                     )
@@ -306,17 +306,21 @@ fun DashboardScreen(
                         )
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(
-                            text = "Belum Ada Film yang Di-rating",
+                            text = stringResource(id = R.string._deskripsifav1),
                             style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurface
+                            color = MaterialTheme.colorScheme.onSurface,
+                            modifier = Modifier.fillMaxWidth(),
+                            textAlign = TextAlign.Center
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
-                            text = "Rate film yang sudah ditonton untuk melihatnya di sini",
+                            text = stringResource(id = R.string._deskripsifav2),
                             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                            modifier = Modifier.fillMaxWidth(),
                             textAlign = TextAlign.Center
                         )
                     }
+
                 }
             } else {
                 LazyRow(

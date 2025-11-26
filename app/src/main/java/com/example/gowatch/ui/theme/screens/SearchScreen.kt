@@ -61,7 +61,7 @@ fun SearchScreen(
             CenterAlignedTopAppBar(
                 title = {
                     Text(
-                        text = "Search Movies",
+                        text = stringResource(id = R.string._searchformovies),
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontWeight = FontWeight.SemiBold
                         )
@@ -97,7 +97,7 @@ fun SearchScreen(
                 },
                 placeholder = {
                     Text(
-                        text = "Search for movies...",
+                        text = stringResource(id = R.string._searchformoviebar),
                         color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f)
                     )
                 },
@@ -130,7 +130,7 @@ fun SearchScreen(
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "Searching...",
+                                text = stringResource(id = R.string._search),
                                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f)
                             )
                         }
@@ -151,10 +151,12 @@ fun SearchScreen(
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = errorMessage ?: "Search failed",
+                                text = errorMessage ?: stringResource(R.string.search_failed),
                                 color = MaterialTheme.colorScheme.error,
                                 textAlign = TextAlign.Center,
-                                modifier = Modifier.padding(horizontal = 32.dp)
+                                modifier = Modifier
+                                    .padding(horizontal = 32.dp)
+                                    .fillMaxWidth()
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Button(
@@ -175,11 +177,16 @@ fun SearchScreen(
                     Column {
                         // Results count
                         Text(
-                            text = "${searchResults.size} results for \"${searchQuery.text}\"",
+                            text = stringResource(
+                                id = R.string.search_result_text,
+                                searchResults.size,
+                                searchQuery.text
+                            ),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
                             modifier = Modifier.padding(horizontal = 24.dp, vertical = 8.dp)
                         )
+
 
                         // Results list
                         LazyColumn {
@@ -215,13 +222,13 @@ fun SearchScreen(
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "No movies found",
+                                text = stringResource(id = R.string._nomoviefound),
                                 style = MaterialTheme.typography.titleMedium,
                                 color = MaterialTheme.colorScheme.onBackground
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "Try a different search term",
+                                text = stringResource(id = R.string._tryadifferent),
                                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
                                 textAlign = TextAlign.Center
                             )
@@ -243,13 +250,13 @@ fun SearchScreen(
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "Search for movies",
+                                text = stringResource(id = R.string._searchformovies),
                                 style = MaterialTheme.typography.titleMedium,
                                 color = MaterialTheme.colorScheme.onBackground
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "Type at least 3 characters to search",
+                                text = stringResource(id = R.string._typeatleast),
                                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
                                 textAlign = TextAlign.Center
                             )

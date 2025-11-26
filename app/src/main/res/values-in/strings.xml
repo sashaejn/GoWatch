@@ -13,4 +13,18 @@
     <string name="no_results">Tidak Ditemukan</string>
     <string name="error_loading">Error</string>
     <string name="app_slogan">Rekomendasi Tepat, Hiburan Mantap.</string>
+    <string name="_deskripsiwatchlist">Tambahkan film ke watchlist untuk melihatnya di sini!</string>
+    <string name="_deskripsifav1">Belum ada film yang di rating.</string>
+    <string name="_deskripsifav2">Rate film yang sudah ditonton untuk melihatnya disini</string>
+    <string name="_deskripsitrending">Tidak ada film tersedia</string>
+    <string name="_searchformoviebar">Cari Film...</string>
+    <string name="_searchformovies">Cari Film</string>
+    <string name="_typeatleast">Ketik minimal 3 karakter untuk mencari</string>
+    <string name="_nomoviefound">Film tidak di temukan</string>
+    <string name="_tryadifferent">Coba gunakan kata kunci yang berbeda.</string>
+    <string name="search_result_text">%1$d hasil untuk "%2$s"</string>
+    <string name="search_failed">Pencarian gagal</string>
+    <string name="_search">Mencari...</string>
+    <string name="_ditambahkanwatchlist">Ditambahkan ke tonton nanti</string>
+
 </resources>

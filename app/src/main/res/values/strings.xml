@@ -12,4 +12,20 @@
     <string name="no_results">No results found</string>
     <string name="error_loading">Error loading data</string>
     <string name="app_slogan">Perfect Picks, Pure Entertainment.</string>
+    <string name="_deskripsiwatchlist">Add a movie to your watchlist to see it here!</string>
+    <string name="_deskripsifav1">There are no movies that have been rated yet.</string>
+    <string name="_deskripsifav2">Rate movies you\'ve watched to see them here</string>
+    <string name="_deskripsitrending">No movies available</string>
+    <string name="_searchformoviebar">Search for movies...</string>
+    <string name="_searchformovies">Search for movies</string>
+    <string name="_typeatleast">Type at least 3 character to search</string>
+    <string name="_nomoviefound">No movie found</string>
+    <string name="_tryadifferent">Try a different search term</string>
+    <string name="search_result_text">%1$d results for "%2$s"</string>
+    <string name="search_failed">Search failed</string>
+
+    <string name="_search">Searching...</string>
+    <string name="_ditambahkanwatchlist">Added to watchlist</string>
+
+
 </resources>
